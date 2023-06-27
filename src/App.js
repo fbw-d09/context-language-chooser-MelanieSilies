@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
+import { Header} from './components';
+
 
 const App = () => {
   return (
     <div>
-      {/* Happy Coding starts here */}
+      <Header />
     </div>
   )
 }
 
-export default App
+export default App;
